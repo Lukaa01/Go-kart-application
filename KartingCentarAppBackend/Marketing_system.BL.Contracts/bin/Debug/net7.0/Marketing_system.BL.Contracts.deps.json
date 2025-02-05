@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Marketing_system.BL.Contracts/1.0.0": {
+        "runtime": {
+          "Marketing_system.BL.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Marketing_system.BL.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

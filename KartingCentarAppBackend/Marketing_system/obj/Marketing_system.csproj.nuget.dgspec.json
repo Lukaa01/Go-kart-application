@@ -1,0 +1,453 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system\\Marketing_system.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj",
+        "projectName": "Marketing_system.BL.Contracts",
+        "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL\\Marketing_system.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL\\Marketing_system.BL.csproj",
+        "projectName": "Marketing_system.BL",
+        "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL\\Marketing_system.BL.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj"
+              },
+              "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA.Contracts\\Marketing_system.DA.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA.Contracts\\Marketing_system.DA.Contracts.csproj"
+              },
+              "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA\\Marketing_system.DA.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA\\Marketing_system.DA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA.Contracts\\Marketing_system.DA.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA.Contracts\\Marketing_system.DA.Contracts.csproj",
+        "projectName": "Marketing_system.DA.Contracts",
+        "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA.Contracts\\Marketing_system.DA.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA\\Marketing_system.DA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA\\Marketing_system.DA.csproj",
+        "projectName": "Marketing_system.DA",
+        "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA\\Marketing_system.DA.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA.Contracts\\Marketing_system.DA.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA.Contracts\\Marketing_system.DA.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system\\Marketing_system.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system\\Marketing_system.csproj",
+        "projectName": "Marketing_system",
+        "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system\\Marketing_system.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL.Contracts\\Marketing_system.BL.Contracts.csproj"
+              },
+              "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL\\Marketing_system.BL.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.BL\\Marketing_system.BL.csproj"
+              },
+              "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA\\Marketing_system.DA.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Desktop\\Diplomski\\Diplomski rad - aplikacija\\backend\\KartingCentarAppBackend\\Marketing_system.DA\\Marketing_system.DA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "ZXing.Net.Bindings.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[0.16.12, )"
+            },
+            "Zxing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
